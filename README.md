@@ -5,6 +5,8 @@ redux. I've kept all the Redux & EAD in one folder `effects` and kept the number
 low so it is easy to see how everything connects. This should be a good jumping off point
 for someone creating their first EAD/React/Redux app. Enjoy! :)
 
+You can also check out this CodeSandbox with the project already running https://codesandbox.io/s/github/tylerbuchea/simple-effects-as-data-react-redux-starter
+
 ## Setup
 
 ```bash
