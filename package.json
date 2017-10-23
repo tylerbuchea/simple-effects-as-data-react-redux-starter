@@ -1,28 +1,18 @@
 {
-  "name": "webgames-site",
+  "name": "simple-effects-as-data-react-redux-starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "actionware": "^8.1.0",
     "effects-as-data": "^2.14.9",
     "effects-as-data-redux": "^1.0.3",
     "effects-as-data-universal": "^4.2.0",
-    "faker": "^4.1.0",
-    "lodash": "^4.17.4",
-    "material-ui": "^1.0.0-beta.17",
-    "material-ui-icons": "^1.0.0-beta.17",
-    "moment": "^2.19.1",
-    "ramda": "^0.25.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
     "react-scripts": "1.0.14",
-    "react-slick": "^0.15.4",
     "redux": "^3.7.2",
     "regenerator-runtime": "^0.11.0",
-    "simple-protocol-http": "^0.15.0",
-    "slick-carousel": "^1.8.1",
-    "uuid": "^3.1.0"
+    "simple-protocol-http": "^0.15.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { withStyles } from 'material-ui/styles';
 import fxns from '../effects/allFunctions';
-import Home from './Home';
 
 export class App extends React.Component {
   componentDidMount() {
@@ -11,13 +10,14 @@ export class App extends React.Component {
   }
 
   render() {
-    return <Home />;
+    return (
+      <div>
+        <h1>Effects as Data Rocks!</h1>
+      </div>
+    );
   }
 }
 
-const styles = theme => ({});
 const mapStateToProps = (state, ownProps) => ({ ...state });
 const mapDispatchToProps = (dispatch, ownProps) => ({ fxns });
-export default connect(mapStateToProps, mapDispatchToProps)(
-  withStyles(styles)(App)
-);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
