@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { withStyles } from 'material-ui/styles';
-import fxns from '../effects/allFunctions';
+import fxns from './effects/allFunctions';
 
 export class App extends React.Component {
   componentDidMount() {

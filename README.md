@@ -1,6 +1,6 @@
 # Simple Effects as Data React Redux Starter
 
-This starter is vanilla create-react-app and I've added in [effects-as-data]() plus
+This starter is vanilla create-react-app and I've added in [effects-as-data](https://github.com/orourkedd/effects-as-data) plus
 redux. I've kept all the Redux & EAD in one folder `effects` and kept the number of files
 low so it is easy to see how everything connects. This should be a good jumping off point
 for someone creating their first EAD/React/Redux app. Enjoy! :)
