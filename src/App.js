@@ -5,13 +5,17 @@ import fxns from './effects/allFunctions';
 export class App extends React.Component {
   componentDidMount() {
     const { fxns } = this.props;
-    fxns.getUser();
+    fxns.getUser('tylerbuchea');
   }
 
   render() {
+    const { user } = this.props;
+    console.log(user);
     return (
       <div>
         <h1>Effects as Data Rocks!</h1>
+        <img src={user.avatar_url} alt="user avatar" width="100" />
+        <a href={user.html_url}>{user.login}</a>
       </div>
     );
   }
